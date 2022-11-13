@@ -1,0 +1,18 @@
+.loader {
+    width: 100px;
+    height: 100px;
+    border: 4px dashed teal;
+    border-radius: 50%;
+    animation-name: spining;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spining {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
