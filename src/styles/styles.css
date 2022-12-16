@@ -6,11 +6,33 @@
 
 #root {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .App {
     width: 800px;
+}
+
+.post__btns{
+    display: flex
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background: lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.navbar__links {
+    margin-right: auto;
+}
+
+.navbar__links a {
+    margin-right: 5px;
 }
 
 .post {
